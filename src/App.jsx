@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_BASE_URL = 'http://localhost:3000/comisiones'; // URL de tu API NestJS
+  const API_BASE_URL = 'https://mini-core-c.onrender.com/comisiones'; // URL de tu API NestJS
 
   const fetchCommissions = async () => {
     setLoading(true);
